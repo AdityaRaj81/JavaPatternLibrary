@@ -118,11 +118,12 @@ We are delighted to have contributors! If you have a new pattern idea or enhance
 
 Thank you for helping to expand this library and supporting Java learners around the world!
 
+<!--
 ---
 
 ## 📄 License
 This repository is licensed under the MIT License.
-
+-->
 ---
 
 ## 👤 Made By
