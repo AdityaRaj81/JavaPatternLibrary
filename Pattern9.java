@@ -1,7 +1,7 @@
-//hollow pyramid star pattern
+// hollow pyramid star pattern
 
 public class Pattern9 {
-  public static void main(String[] args) {
+public static void main(String[] args) {
     int rows = 5;
 
     // Upper part of the pyramid
@@ -13,7 +13,7 @@ public class Pattern9 {
 
         // Print stars
         for (int k = 1; k <= 2 * i - 1; k++) {
-            // Print stars only at the beginning, end, and middle of the first row
+            // Print stars only at the beginning and end of each row, and the middle of the first row
             if (i == 1 || k == 1 || k == 2 * i - 1) {
                 System.out.print("*");
             } else {
@@ -23,5 +23,5 @@ public class Pattern9 {
 
         System.out.println(); // Move to next line
     }
-}
+  }
 }
